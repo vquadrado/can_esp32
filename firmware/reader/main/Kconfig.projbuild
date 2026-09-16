@@ -1,0 +1,27 @@
+menu "CAN reader"
+
+    config READER_TWAI_TX_GPIO
+        int "TWAI TX GPIO"
+        default 4
+        help
+            Pull-up, held HIGH at boot (recessive).
+
+    config READER_TWAI_RX_GPIO
+        int "TWAI RX GPIO"
+        default 5
+
+    config READER_ALLOW_TX
+        bool "Allow OBD transmit (CLI tx on)"
+        default n
+        help
+            Keep disabled on the car until docs/yaris_xs_2023_can.md exists.
+
+    config READER_STATS_PERIOD_S
+        int "Stats print period (seconds, 0=off)"
+        default 1
+
+    config READER_LOG_ALL
+        bool "Log every 11-bit frame"
+        default y
+
+endmenu
