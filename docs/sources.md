@@ -45,6 +45,11 @@ Pesquisa usada no [prd.md](../prd.md). Nenhuma destas fontes substitui medição
 
 - [r/CarHacking — CAN Bus OBD Gateway](https://www.reddit.com/r/CarHacking/comments/1clwgl9/can_bus_obd_gateway/)
 
+## Transceptor do projeto (SN65HVD230)
+
+- [Datasheet TI SN65HVD23x](https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf) — 3,3 V, pino RS (high-speed / slope / standby).
+- [CJMCU-230 pinout (3V3, GND, CTX, CRX, CANH, CANL)](https://www.phippselectronics.com/support/cjmcu-230-sn65hvd230-can-bus-transceiver-communication-module-support-documentation/)
+
 ## ESP32-S3 TWAI e hardware OBD
 
 - [ESP-IDF TWAI (ESP32-S3)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/twai.html)
