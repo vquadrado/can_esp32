@@ -2,7 +2,7 @@
 
 O que vale do esboço de bancada + FreeRTOS. Veículo, DLC, OBD e segurança: [prd.md](../prd.md). Fontes: [sources.md](sources.md).
 
-C++ no **ESP-IDF + FreeRTOS**. Sem Arduino. Dois apps: `firmware/simulator` e `firmware/reader`, código comum em `components/`.
+C++ no **ESP-IDF + FreeRTOS**. Sem Arduino. Dois apps: `firmware/simulator` e `firmware/reader`, código comum em `components/`. Spec do leitor: [firmware/reader/SPEC.md](../firmware/reader/SPEC.md).
 
 ---
 
