@@ -67,3 +67,11 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# ESP-IDF
+firmware/*/sdkconfig
+firmware/*/sdkconfig.old
+firmware/*/build
+managed_components/
+dependencies.lock
+
